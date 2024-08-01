@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url(../images/bk5.jpg) ;
+  background-attachment: fixed;
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home{
+  position: relative;
+  z-index:4 ;
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index:0;
+}
